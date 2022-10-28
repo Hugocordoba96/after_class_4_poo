@@ -18,10 +18,23 @@
 
 #print(alumno1.get_alumno('1234'))
 
-from profesor import Profesor
+#from profesor import Profesor
 
-profesor1 = Profesor('Alejo', 'Delgado', 23, '99919240124', 'M', 'Developer', '12345',  '34635')
+#profesor1 = Profesor('Alejo', 'Delgado', 23, '99919240124', 'M', 'Developer', '12345',  '34635')
 
 #profesor1.set_profesor()
 
-print(profesor1.get_profesor('99919240124'))
+#print(profesor1.get_profesor('99919240124'))
+
+from comision import Comision
+
+comision1 = Comision('34635')
+
+lista_alumnos = comision1.get_alumno_comision()
+
+print(lista_alumnos)
+
+for alumno in lista_alumnos:
+    print(comision1.get_alumno(alumno))
+
+
