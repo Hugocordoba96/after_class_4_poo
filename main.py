@@ -4,8 +4,16 @@
 
 #print(persona1.get_persona('99919240124'))
 
-from clase import Clase
+#from clase import Clase
 
-clase1 = Clase('34635', 'Python', 'Programacion', '19-21h', 'lu-mi')
+#clase1 = Clase('34635', 'Python', 'Programacion', '19-21h', 'lu-mi')
 
-clase1.set_clase()
+#clase1.set_clase()
+
+from alumno import Alumno
+
+alumno1 = Alumno('Alejo', 'Delgado', 23, '99919240124', 'M', '1234', '34635')
+
+#alumno1.set_alumno()
+
+print(alumno1.get_alumno('1234'))
