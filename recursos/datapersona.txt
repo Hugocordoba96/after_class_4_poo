@@ -1,1 +1,2 @@
-2101200012345|Derick Carcamo|12345|Profesor|Activo
+99919240124|Alejo|Delgado|23|M|
+99919240124|Alejo|Delgado|23|M|
