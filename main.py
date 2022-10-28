@@ -10,10 +10,18 @@
 
 #clase1.set_clase()
 
-from alumno import Alumno
+#from alumno import Alumno
 
-alumno1 = Alumno('Alejo', 'Delgado', 23, '99919240124', 'M', '1234', '34635')
+#alumno1 = Alumno('Alejo', 'Delgado', 23, '99919240124', 'M', '1234', '34635')
 
 #alumno1.set_alumno()
 
-print(alumno1.get_alumno('1234'))
+#print(alumno1.get_alumno('1234'))
+
+from profesor import Profesor
+
+profesor1 = Profesor('Alejo', 'Delgado', 23, '99919240124', 'M', 'Developer', '12345',  '34635')
+
+#profesor1.set_profesor()
+
+print(profesor1.get_profesor('99919240124'))
